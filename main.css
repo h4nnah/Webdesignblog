@@ -1,0 +1,89 @@
+html,
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(backround.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+}
+
+header {
+    display: flex;
+    width: 25%;
+    margin: auto;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    flex: 1;
+    text-align: center;
+    align-content: center;
+}
+
+
+h1 {
+		font-size: 4rem;
+		line-height: 1.1;
+		margin: 0 0 2rem 0;
+	}
+
+.title, .nav-links {
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+
+.nav-links{
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: large;
+}
+
+nav {
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+  
+.about-me {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+    padding-top: 20px;
+}
+
+.reflection{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    padding-top: 20px;
+}
+
+@media only screen
+and (max-width : 320px) {
+    .img {max-width: 100%;}
+    
+}
